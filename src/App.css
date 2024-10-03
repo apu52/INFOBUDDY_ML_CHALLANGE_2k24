@@ -1,0 +1,289 @@
+/* General styling for the App */
+body, .App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure it occupies full viewport height */
+  width: 100vw; /* Full screen width */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns content to the top */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Fullscreen container for chat and sidebar */
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Occupies full viewport height */
+  border-radius: 0;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 25%;
+  background: #1c1c1c;
+  border-right: 1px solid #333;
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling for sidebar */
+}
+
+.sidebar h2 {
+  color: #ff5733;
+  margin-bottom: 10px;
+}
+
+.chat-history {
+  height: 80%;
+  overflow-y: auto; /* Allow scrolling for chat history */
+}
+
+.history-item {
+  padding: 8px;
+  border-bottom: 1px solid #444;
+  color: #eeeeee;
+}
+
+/* Main Chat Section */
+.main-chat {
+  width: 75%;
+  padding: 20px;
+  background: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it occupies full height */
+}
+
+.main-chat h1 {
+  color: #ff5733;
+  text-align: center;
+  margin: 0;
+}
+
+/* Chat box and messages */
+.chat-box {
+  flex: 1; /* Expand the chat box to fill space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-history {
+  flex: 1; /* Allow chat history to take up the remaining height */
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.message.text {
+  background-color: #343434;
+  color: #ffffff;
+  border-left: 4px solid #ff5733;
+}
+
+.message.text p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.message.text:hover {
+  transform: scale(1.02);
+}
+
+/* Uploaded image styling */
+.uploaded-image {
+  max-width: 100%;
+  border: 2px solid #555;
+  border-radius: 6px;
+  margin: 8px 0;
+}
+
+/* Chat Input Section */
+.chat-input-section {
+  display: flex;
+  align-items: center;
+}
+
+.chat-input {
+  flex: 1;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 12px;
+  background: #222;
+  color: #ffffff;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.chat-input:focus {
+  border-color: #ff5733;
+}
+
+.send-btn {
+  background-color: #ff5733;
+  border: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #ff784e;
+}
+
+/* Voice Input Section */
+.voice-btn {
+  background-color: #343434;
+  border: 2px solid #ff5733;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 50%;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.voice-btn:hover {
+  background-color: #ff5733;
+}
+
+/* Image Upload Section */
+.image-upload-section {
+  border: 2px dashed #ff5733;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+.image-upload-section:hover {
+  border-color: #ff784e;
+  background: #252525;
+  color: #ff784e;
+}
+
+.file-upload {
+  cursor: pointer;
+  margin-top: 10px;
+  color: #ff784e;
+}
+
+/* Microphone Sensitivity Slider */
+.mic-sensitivity {
+  margin-top: 20px;
+  color: #ff5733;
+  text-align: left;
+}
+
+.mic-sensitivity label {
+  font-weight: bold;
+}
+
+.slider {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: #444;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 5px;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ff5733;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #ff784e;
+}
+
+/* Language Selection */
+.language-selection {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-selection label {
+  margin-right: 10px;
+}
+
+.language-selection select {
+  border: 1px solid #555;
+  background: #222;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+.language-selection select:hover {
+  border-color: #ff5733;
+}
+
+/* Global scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1c; /* Dark background color for scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff5733; /* Red color for scrollbar thumb */
+  border-radius: 20px; /* Rounded edges for scrollbar thumb */
+  border: 3px solid #1c1c1c; /* Padding to create spacing */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff784e; /* Lighter red color on hover */
+}
+
+/* Scrollbar styling for specific sections */
+.chat-history::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar,
+.main-chat::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-history::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb,
+.main-chat::-webkit-scrollbar-thumb {
+  background-color: #ff5733;
+  border-radius: 10px;
+  border: 2px solid #1c1c1c;
+}
+
+.chat-history::-webkit-scrollbar-thumb:hover,
+.sidebar::-webkit-scrollbar-thumb:hover,
+.main-chat::-webkit-scrollbar-thumb:hover {
+  background-color: #ff784e;
+}
