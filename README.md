@@ -35,7 +35,7 @@
 
 - [📝Overview](#Overview)
 - [✨ Features](#Features)
-- [🚀 Prototype Video](#Prototype-Video)
+- [🚀 Prototype ](#Prototype)
 - [💻 Technological Stack](#Technology-Stack)
 - [🏗️ System Architecture](#System-Architecture)
 - [🔧 Installation](#Installation)
@@ -65,7 +65,7 @@
 - **📷 Live Camera Detection**: Real-time detection of attributes using the device’s live camera.
 - **💬 Chat History**: Keeps track of user interactions for easy reference.
 
-<h2>🚀 Prototype Video</h2>
+<h2>🚀 Prototype </h2>
 
 
 <h2>💻 Technological Stack</h2>
