@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# <p align="center">📊 InfoBuddy</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   
+<center>
+<img  src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-INFOBUDDY"/>
+</center>
+   
+![image](https://github.com/user-attachments/assets/2f71fc55-df74-4c8d-8140-92f6504b9dde)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+ 
+<div align="center">
+ <p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=apu52%2FINFOBUDDY_ML_CHALLANGE_2k24%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
+![GitHub Repo stars](https://img.shields.io/github/stars/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
+![GitHub last commit](https://img.shields.io/github/last-commit/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
+![GitHub repo size](https://img.shields.io/github/repo-size/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
+![Github](https://img.shields.io/github/license/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/apu52/INFOBUDDY_ML_CHALLANGE_2k24)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ </p>
+ </div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Table of Contents📚</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [📝Overview](#Overview)
+- [✨ Features](#Features)
+- [🚀 Prototype Video](#Prototype-Video)
+- [💻 Technological Stack](#Technology-Stack)
+- [🏗️ System Architecture](#System-Architecture)
+- [🔧 Installation](#Installation)
+- [🚀 Usage](#Usage)
+- [🗂️ Project Structure](#Project-Structure)
+- [📈 Model Development](#Model-Development)
+- [🖥️ Frontend Development](#Frontend-Development)
+- [⚙️ Challenges and Solutions](#Challenges-and-Solutions)
+- [🌟 Future Enhancements](#Future-Enhancements)
+- [Project Admin⚡](#Project-Admin)
+- [🤝 Contributing](#Contributing)
+- [📄 License](#License)
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>📝 Overview</h2>
+<p></p>InfoBuddy is an innovative machine learning-based project that identifies key physical attributes—such as height, weight, voltage, wattage, width, volume, and depth—of objects from uploaded images. This project was created by Team Prime Predictors for the Unstop Amazon ML Challenge 2024. The solution features an interactive frontend that supports multilingual interaction (English, Spanish, French, Hindi) and offers both voice input and output capabilities for seamless user experience.</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>✨ Features</h2>
 
-## Learn More
+- **🔍 Attribute Detection**: Detects height, weight, voltage, wattage, width, volume, and depth from uploaded images.
+- **🌐 Multilingual Support**: Interface supports English, Spanish, French, and Hindi.
+- **🎙️ Voice Interaction**: Includes voice input and output features using native JavaScript libraries.
+- **🔊 Text-to-Speech (TTS)**: Read-along feature that reads out the responses for enhanced accessibility.
+- **📷 Live Camera Detection**: Real-time detection of attributes using the device’s live camera.
+- **💬 Chat History**: Keeps track of user interactions for easy reference.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2>🚀 Prototype Video</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<h2>💻 Technological Stack</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Backend**: Python, Jupyter Notebook, GEMINI API.
+- **Frontend**: React, JavaScript, HTML, CSS.
+- **Automation and Testing**: Selenium.
+- **Speech and Voice**: Native JavaScript libraries for speech-to-text and text-to-speech.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
