@@ -39,10 +39,7 @@
 - [💻 Technological Stack](#Technology-Stack)
 - [🏗️ System Architecture](#System-Architecture)
 - [🔧 Installation](#Installation)
-- [🚀 Usage](#Usage)
-- [🗂️ Project Structure](#Project-Structure)
 - [📈 Model Development](#Model-Development)
-- [🖥️ Frontend Development](#Frontend-Development)
 - [⚙️ Challenges and Solutions](#Challenges-and-Solutions)
 - [🌟 Future Enhancements](#Future-Enhancements)
 - [Project Admin⚡](#Project-Admin)
@@ -62,7 +59,6 @@
 - **🌐 Multilingual Support**: Interface supports English, Spanish, French, and Hindi.
 - **🎙️ Voice Interaction**: Includes voice input and output features using native JavaScript libraries.
 - **🔊 Text-to-Speech (TTS)**: Read-along feature that reads out the responses for enhanced accessibility.
-- **📷 Live Camera Detection**: Real-time detection of attributes using the device’s live camera.
 - **💬 Chat History**: Keeps track of user interactions for easy reference.
 
 <h2>🚀 Prototype </h2>
@@ -76,9 +72,84 @@
 - **Speech and Voice**: Native JavaScript libraries for speech-to-text and text-to-speech.
 
 
+<h2>🏗️ System Architecture</h2>
+
+1. **Backend:** Python-based machine learning model built in Jupyter Notebook.
+
+                 - Utilizes the GEMINI API for data processing.
+                 - Integrated with Selenium for testing and automation.
+2. **Frontend:** React-based application with interactive elements.
+
+                 - Offers chat-style interaction and dynamic response rendering.
+                 - Allows language switching and voice integration.
+
+<h2>🔧 Installation</h2>
+<p>To set up the project locally, follow these steps:</p>
+
+<h3>1. Prerequisites</h3>
+
+- Node.js
+- Python 3.x
+- Jupyter Notebook
+- GEMINI API Access
+
+<h3>Clone the Repository</h3>
+
+```bash
+git clone https://github.com/apu52/INFOBUDDY_ML_CHALLANGE_2k24.git  
+cd InfoBuddy  
+
+```
+
+<h2>📈 Model Development</h2>
+
+The machine learning model is built using Python and Jupyter Notebook. The following steps were followed for model development:
+
+- **📊 Data Collection**: Compiled a dataset of various objects to train the model for accurate attribute detection.
+- **🤖 Model Training**: Leveraged deep learning techniques to train the model for predicting height, weight, and other parameters.
+- **🔍 Testing**: Utilized Selenium for testing the model’s output against expected values.
+
+
+<h2>⚙️ Challenges and Solutions</h2>
 
 
 
+- **🔄 Data Processing**: Ensured data consistency and variety during the model training phase to enhance accuracy.
+- **🎙️ Voice Integration**: Overcame voice recognition challenges by leveraging native JavaScript libraries and optimizing the voice flow.
 
+
+<h2>🌟 Future Enhancements</h2>
+
+
+
+- 📊 Expand the dataset for more accurate attribute detection.
+- 🌐 Incorporate additional languages and improve voice command capabilities.
+- 🔄 Optimize the real-time detection feature to handle more complex objects.
+
+<h2>🤝 Contributing</h2>
+Contributions are welcome! Please follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Commit your changes and open a pull request.
+
+<p align = "center">
+Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repository.
+</p>
+
+<div align="center">
+   
+# Project Admin⚡
+ 
+<table>
+<tr>
+<td align="center"><a href="https://github.com/apu52"><img src="img/Apu.jpeg" width=150px height=150px /></a></br> <h4 style="color:red;">Arpan Chowdhury</h4>
+ <a href="https://www.linkedin.com/in/arpan-chowdhury-775294251/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
+   </td>
+
+</tr>
+</table>
+  
+</div>
 
 
