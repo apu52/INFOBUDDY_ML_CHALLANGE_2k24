@@ -143,10 +143,21 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
  
 <table>
 <tr>
-<td align="center"><a href="https://github.com/apu52"><img src="img/Apu.jpeg" width=150px height=150px /></a></br> <h4 style="color:red;">Arpan Chowdhury</h4>
- <a href="https://www.linkedin.com/in/arpan-chowdhury-775294251/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
-   </td>
+<td align="center"><a href="https://github.com/KrishnenduDG"><img src="img/krishnendu DG.png" width=130px height=130px /></a></br> <h4 style="color:red;">Krishnendu Dasgupta</h4>
+ <a href="https://www.linkedin.com/in/krishnendu-dasgupta-450391186/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
+</td>
 
+<td align="center"><a href="https://github.com/itsekta"><img src="img/Ekta.jfif" width=130px height=130px /></a></br> <h4 style="color:red;">Ekta Chaudhary</h4>
+ <a href="https://www.linkedin.com/in/ekta-software-engineer/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
+</td>
+
+<td align="center"><a href="https://github.com/Ghanshyam89"><img src="img/GhanshyamNewPic.jpg" width=130px height=130px /></a></br> <h4 style="color:red;">Ghanshyam Prajapati</h4>
+ <a href="https://www.linkedin.com/in/ghanshyam-prajapati/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
+</td>
+
+<td align="center"><a href="https://github.com/KrishnenduDG"><img src="img/krishnendu DG.png" width=130px height=130px /></a></br> <h4 style="color:red;">Krishnendu Dasgupta</h4>
+ <a href="https://www.linkedin.com/in/krishnendu-dasgupta-450391186/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" width="32px" height="32px"></img></a>
+</td>
 </tr>
 </table>
   
