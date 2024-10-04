@@ -1,3 +1,5 @@
+
+
 # <p align="center">📊 InfoBuddy</p>
 
 <p align="center">
@@ -62,6 +64,17 @@
 - **💬 Chat History**: Keeps track of user interactions for easy reference.
 
 <h2>🚀 Prototype </h2>
+
+https://github.com/user-attachments/assets/d112740d-5d4c-4aff-a817-8d53a5637c27
+
+
+https://github.com/user-attachments/assets/1ba86fc8-cb88-40a3-a5be-c14f29e795c5
+
+
+
+
+
+
 
 
 <h2>💻 Technological Stack</h2>
